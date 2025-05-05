@@ -1,0 +1,27 @@
+
+syntax = "proto3";
+
+package youtube_story;
+
+service StoryPipeline {
+  rpc Generate (GenerateRequest) returns (GenerateReply);
+}
+
+message GenerateRequest {
+  repeated string keywords = 1;
+  repeated string themes = 2;
+  repeated string regions = 3;
+  int32 max_results = 4;
+  int32 num_random_videos = 5;
+  string custom_prompt = 6;
+}
+
+message GenerateReply {
+  string status = 1;
+  string message = 2;
+  string output_file = 3;
+}
+
+
+
+

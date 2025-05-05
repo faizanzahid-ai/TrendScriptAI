@@ -1,0 +1,12 @@
+torch
+transformers
+faster-whisper
+isodate
+google-api-python-client
+yt-dlp
+grpcio
+grpcio-tools
+streamlit
+protobuf
+numpy
+pandas

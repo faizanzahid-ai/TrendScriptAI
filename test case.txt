@@ -1,0 +1,66 @@
+Test Case 1: Basic Single Video Flow
+Input:
+
+Keyword: AI
+
+Themes: drama, sci-fi
+
+Region: US
+
+Max YouTube Results: 3
+
+Videos to Process: 1
+
+Custom Prompt: no
+
+
+Test Case 2: Multiple Keywords and Regions
+Input:
+
+Keywords: robotics, space
+
+Themes: adventure, comedy
+
+Regions: IN, UK
+
+Max Results: 5
+
+Videos to Process: 2
+
+Custom Prompt: no
+
+
+Test Case 3: Custom Prompt Story
+Input:
+
+Keyword: machine learning
+
+Themes: mystery
+
+Region: US
+
+Max Results: 3
+
+Videos to Process: 1
+
+Custom Prompt: yes
+
+Prompt: Include a detective who solves AI crimes.
+
+
+
+Test Case 4: Custom Prompt Story
+Input:
+
+Keyword: veryobscuretopicthatdoesnotexist
+
+Themes: fantasy
+
+Region: US
+
+Max Results: 3
+
+Videos to Process: 1
+
+Custom Prompt: no
+
